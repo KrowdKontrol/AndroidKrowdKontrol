@@ -1,0 +1,140 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+   <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/country_arrays"
+        android:prompt="@string/country_prompt" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="General"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+<SeekBar
+    android:id="@+id/generalMute"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<SeekBar
+    android:id="@+id/generalFader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<SeekBar
+    android:id="@+id/generalPan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Reverb"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<SeekBar
+    android:id="@+id/reverb1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<SeekBar
+    android:id="@+id/reverb2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="LPS"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<SeekBar
+    android:id="@+id/lps1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="AM"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<SeekBar
+    android:id="@+id/am1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<TextView
+    android:id="@+id/textView5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Delay"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<SeekBar
+    android:id="@+id/delay1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+
+<RelativeLayout 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="ToggleButton" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="66dp"
+        android:text="ToggleButton" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/toggleButton3"
+        android:text="ToggleButton" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/toggleButton2"
+        android:text="ToggleButton" />
+    
+    </RelativeLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="app_name">KrowdKontrol</string>
+    <string name="country_prompt">Choose a country</string>
+ 
+    <string-array name="country_arrays">
+        <item>Track 1</item>
+        <item>Track 2</item>
+        <item>Track 3</item>
+        <item>Track 4</item>
+        <item>Track 5</item>
+        <item>Track 6</item>
+        <item>Track 7</item>
+        <item>Track 8</item>
+    </string-array>
+</resources>
